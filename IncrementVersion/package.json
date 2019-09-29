@@ -1,11 +1,12 @@
 {
   "name": "IncrementVersion",
-  "version": "1.0.9",
+  "version": "1.10.11",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
+    "changeOwnerPermissions": "chmod +x ./npmversion/version-ios.sh",
     "version": "./npmversion/version-ios.sh",
     "test": "jest",
     "lint": "eslint ."
